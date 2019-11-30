@@ -6,9 +6,9 @@ body
 .container
 {
 	display: grid;
-	/*grid-template-columns: 25% 200px 25%;
-	grid-template-rows:300px;*/
-	grid-template:100px 1fr 150px / 200px 1fr;/* filas /columnas*/
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows:repeat(4, 1fr);
+	/*grid-template:100px 1fr 150px / 200px 1fr;filas /columnas*/
 	/*grid-column-gap:10px;
 	grid-row-gap:10px;*/
 	grid-gap:10px; /*espaciado entre areas filas y columnas*/
@@ -17,7 +17,7 @@ body
 
 }
 
-.item:nth-of-type(4)
+.item:nth-of-type(1)
 {
 	background: #f00000;
 	overflow: auto;

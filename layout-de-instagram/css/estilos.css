@@ -1,0 +1,60 @@
+body
+{
+	margin: 0;
+	font-family: arial;
+}
+
+.post
+{
+	cursor: pointer;
+	position: relative;
+	width: 300px;
+	display: block;
+}
+
+.post-img
+{
+	margin: 0;
+}
+
+.post-img img
+{
+	width: 100%;
+	vertical-align: top;
+}
+
+.post-overlay
+{
+	background: rgba(0,0,0,.4);
+	position: absolute;
+	left: 0;
+	right: 0;
+	top:0;
+	bottom: 0;
+	display: none;
+	align-items: center;
+	justify-content: center;
+	color:#fff;
+	text-align: center;
+}
+
+.post:hover .post-overlay
+{
+	display: flex;
+}
+
+.post-like, .post-comnents
+{
+	width:60px;
+	margin: 10px;
+	font-weight: bold;
+	text-align:center;
+	display: inline-block;
+}
+
+
+
+
+
+
+
